@@ -4,7 +4,7 @@ from flask import Response, request
 from flask.views import View
 
 from graphql2.type.schema import GraphQLSchema
-from graphql_server import (HttpQueryError, default_format_error,
+from graphql_server1 import (HttpQueryError, default_format_error,
                             encode_execution_results, json_encode,
                             load_json_body, run_http_query)
 
