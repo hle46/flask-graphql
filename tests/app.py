@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_graphql import GraphQLView
 from .schema import Schema
-from graphql import GraphQLCachedBackend
+from graphql2 import GraphQLCachedBackend
 # from quiver.backend import GraphQLQuiverBackend
 
 

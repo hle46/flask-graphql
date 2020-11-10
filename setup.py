@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
-required_packages = ["graphql-core>=2.1,<3", "flask>=0.7.0", "graphql-server-core>=1.1,<2"]
+required_packages = ["graphql-core2", "flask>=0.7.0", "graphql-server-core>=1.1,<2"]
 
 setup(
-    name="Flask-GraphQL",
+    name="Flask-GraphQL2",
     version="2.0.1",
     description="Adds GraphQL support to your Flask application",
     long_description=open("README.rst").read(),
